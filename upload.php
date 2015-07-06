@@ -1,4 +1,5 @@
 <?php
+echo "Testing Capistrano......................!!!!"
 $target_dir = "uploads/";
 //print_r($_FILES);
 $target_file = $target_dir . basename($_FILES["file"]["name"]);
