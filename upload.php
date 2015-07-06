@@ -15,7 +15,7 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         echo "Sorry, there was an error uploading your file.";
     }
     } else {
-        echo "File is not an image.";
+        echo "File is never an image.";
         $uploadOk = 0;
     }
 
