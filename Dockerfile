@@ -25,7 +25,7 @@ RUN apt-get install -y python python-dev python-distribute python-pip
 ADD /app /app
 
 # Get pip to download and install requirements:
-RUN pip install -r /my_application/requirements.txt
+RUN pip install -r /app/requirements.txt
 
 # Expose ports
 EXPOSE 80
